@@ -1,17 +1,19 @@
-
-.portada{
-  background-image: url(../images/portadaPS.gif);
-  overflow: hidden;
-  background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.padre{
+  background-image: url(../images/EspacioDerecha.jpg);
+  overflow: hidden !important;
+  background-size: cover !important;
   height: 120vh !important;
-  width: 100vw !important;
+  width: 100% !important;
 }
 .tituloportada{
   text-align: center;
   color: rgb(10, 10, 10);
   font-family:serif;
   font-size: 3rem;
-  text-shadow: rgb(90, 89, 89) 1px 1px;;
+  text-shadow: rgb(90, 89, 89) 1px 1px;
+  font-family: 'Fredoka One', cursive;
+  margin-top: 200px;
 }
 
 

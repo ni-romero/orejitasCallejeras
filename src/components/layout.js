@@ -18,6 +18,12 @@ const Layout = () => {
 
   return (
     <>
+  
+
+
+
+
+    <div className="container-fluid padre">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Orejitas Callejeras</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,13 +54,13 @@ const Layout = () => {
 </nav>
 
 
-
-
-    <div className="padre"></div>
-    <div className="portada">
-    <h1 className="tituloportada mt-5 p-5">Aspiramos a un Refugio y necesitamos hogares de tránsito”
+    <div className="portada row">
+      <div className="col-xl-6 lg-col-6"></div>
+      <div className="col-xl-6 lg-col-6"> <h1 className="tituloportada p-5">Aspiramos a un Refugio y necesitamos hogares de tránsito”
      ayúdennos, <br></br> 
-    Orejitascallejeras somos todos</h1>
+    Orejitascallejeras somos todos</h1></div>
+    
+    </div>
     </div>
     <About/>
 
